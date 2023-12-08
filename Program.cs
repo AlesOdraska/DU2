@@ -29,11 +29,7 @@ namespace DU
         }
         static void Main(string[] args)
         {
-            int a = 5;
-            Strom strom = new Strom();          
-            strom.narastie(a);
-            strom.vypis();
-            Console.ReadLine();
+            
         }
     }
 }
