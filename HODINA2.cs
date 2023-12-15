@@ -36,9 +36,12 @@ namespace HODINA
             strom.radius = 10;
             strom.vyska= 10;
             Console.WriteLine(strom.Volume);
-            Console.ReadLine();
-            
-            
+            BAOBAB baobab = new BAOBAB();
+            baobab.radius = 10;
+            baobab.vyska = 10;
+            Console.WriteLine(baobab.Volume);
+
+
 
         }
     }
