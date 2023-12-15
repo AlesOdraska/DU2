@@ -32,14 +32,13 @@ namespace HODINA
             Console.WriteLine("celkovy ibjem");
             Console.WriteLine(x);
             Console.ReadLine();*/
-            STROM strom= new STROM();
-            strom.radius = 10;
-            strom.vyska= 10;
+            Strom strom= new Strom(10,10);
             Console.WriteLine(strom.Volume);
-            BAOBAB baobab = new BAOBAB();
-            baobab.radius = 10;
-            baobab.vyska = 10;
-            Console.WriteLine(baobab.Volume);
+            Baobab baobab = new Baobab(10,10);      
+            Console.WriteLine(baobab.Volum);
+            Ihlicnan ihlicnan = new Ihlicnan(10, 10);
+            Console.WriteLine(ihlicnan.Volu);
+            Console.ReadLine();
 
 
 
